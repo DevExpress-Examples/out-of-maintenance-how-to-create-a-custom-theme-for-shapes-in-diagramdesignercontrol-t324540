@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxdiag="http://schemas.devexpress.com/winfx/2008/xaml/diagram" 
+        dx:ThemeManager.ThemeName="MetropolisLight"
+        x:Class="CustomShapeThemes.MainWindow"
+        Title="MainWindow" Height="700" Width="1100">
+    <Grid>
+
+        <dxdiag:DiagramDesignerControl DefaultStencils="BasicShapes, BasicFlowchartShapes" Name="diagramControl"/>
+
+    </Grid>
+</Window>
