@@ -1,4 +1,4 @@
-﻿<p:ResourceDictionary xmlns="http://schemas.devexpress.com/winfx/2008/xaml/diagram"
+<p:ResourceDictionary xmlns="http://schemas.devexpress.com/winfx/2008/xaml/diagram"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:p="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
     <Theme x:Key="{ThemeKey MyTheme}" FontSize="10" FontFamily="Calibri">
