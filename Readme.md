@@ -3,7 +3,7 @@
 
 * **[CustomShapeTheme.xaml](./CS/CustomShapeThemes/CustomShapeTheme.xaml) (VB: [CustomShapeTheme.xaml](./VB/CustomShapeThemes/CustomShapeTheme.xaml))**
 * [MainWindow.xaml](./CS/CustomShapeThemes/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomShapeThemes/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomShapeThemes/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CustomShapeThemes/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CustomShapeThemes/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomShapeThemes/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to create a custom theme for shapes in DiagramDesignerControl
 
