@@ -16,21 +16,21 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace CustomShapeThemes
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            InitCustomShapeTheme()
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+			InitCustomShapeTheme()
+		End Sub
 
-        Private Sub InitCustomShapeTheme()
-            Dim customShapeThemeDictionary As New ResourceDictionary() With {.Source = New Uri("CustomShapeTheme.xaml", UriKind.Relative)}
-            ThemeRegistrator.RegisterThemes(customShapeThemeDictionary, Function(name) name)
-            diagramControl.Theme = ThemeRegistrator.GetTheme("MyTheme")
-        End Sub
-    End Class
+		Private Sub InitCustomShapeTheme()
+			Dim customShapeThemeDictionary As New ResourceDictionary() With {.Source = New Uri("CustomShapeTheme.xaml", UriKind.Relative)}
+			ThemeRegistrator.RegisterThemes(customShapeThemeDictionary, Function(name) name)
+			diagramControl.Theme = ThemeRegistrator.GetTheme("MyTheme")
+		End Sub
+	End Class
 End Namespace
